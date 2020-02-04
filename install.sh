@@ -1,5 +1,6 @@
 num_threads=$(nproc)
 core_used=$((num_threads/2))
+source ~/.bashrc
 
 mkdir -p build
 cd build
